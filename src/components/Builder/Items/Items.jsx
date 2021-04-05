@@ -1,11 +1,13 @@
 import React from 'react';
-import Item from './item/item';
+import Item from './item/Item';
 
 // eslint-disable-next-line import/prefer-default-export
-export const Items = () => (
-    <div>
-        <ul>
-            <Item />
-        </ul>
-    </div>
-);
+export default function Items() {
+    return (
+        <div>
+            <ul>
+                <Item />
+            </ul>
+        </div>
+    );
+}

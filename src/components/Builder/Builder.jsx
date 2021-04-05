@@ -1,6 +1,8 @@
 import React from 'react';
 import classes from './Builder.module.css';
 import Items from './Items/Items';
+import Modal from './Modal/Modal';
+import TotalPrice from './TotalPrice/TotalPrice';
 
 // eslint-disable-next-line import/prefer-default-export
 export const Builder = () => (
@@ -16,3 +18,5 @@ export const Builder = () => (
         <Modal>Hello Modal</Modal>
     </div>
 );
+
+export default Builder;
